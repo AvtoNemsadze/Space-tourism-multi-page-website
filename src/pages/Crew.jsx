@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from './Navbar'
-// import PaginatedItems from '../container/Slider'
-// import Swiper_One from './Swiper'
+import {NavLink} from 'react-router-dom'
+import '../styles/dots.css'
 
 function Crew() {
   return (
@@ -12,11 +12,16 @@ function Crew() {
 
 
       <TextBox>
-         <Text>MEET YOUR CREW</Text>
+         <Text>02 MEET YOUR CREW</Text>
       </TextBox>
 
     <Components>
-       {/* <Swiper_One /> */}
+      <nav className='all-dots'>
+        <NavLink to='/pilot'><span class="dot"></span></NavLink>
+        <NavLink to='/commander'><span class="dot"></span></NavLink>
+        <NavLink to='/specialist'><span class="dot"></span></NavLink>
+        <NavLink to='/engineer'><span class="dot"></span></NavLink>
+      </nav>
     </Components> 
     </Box>
     </Container>
@@ -26,6 +31,7 @@ function Crew() {
 export default Crew
 
 const Components = styled.div`
+  margin-left: 40%;
 `
 
 const Box = styled.div`
@@ -34,9 +40,10 @@ const Box = styled.div`
 
 
 const Text = styled.h1`
-  color: #b6bebe;
-  font-size:02 25px;
-  margin-left: 13%;
+  color: #dfd9d5;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-left: 13.5%;
 `
 const TextBox = styled.div``
 
@@ -44,7 +51,6 @@ const TextBox = styled.div``
 
 const Container = styled.div`
     overflow-x: hidden;
-    overflow-y: hidden;
 
     width: 100vw;
     height: 100vh; 

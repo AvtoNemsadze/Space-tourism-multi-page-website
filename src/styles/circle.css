@@ -1,0 +1,33 @@
+.circle {
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: 1px solid rgb(109, 107, 107);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+
+
+
+  .circle-bg{
+    height: 50px;
+    width: 50px;
+    color: rgb(39, 37, 37);
+    background-color: white;
+    border: 1px solid rgb(109, 107, 107);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

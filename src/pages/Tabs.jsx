@@ -53,8 +53,8 @@ export default function Select() {
 
   //styles
   const myStyle = {
-    color: "#ccc6c6",
-    fontSize:'18px',
+    color: "#b8b4b4",
+    fontSize:'16px',
     fontWeight:'600',
     textTransform:'none',
   

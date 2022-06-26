@@ -34,6 +34,7 @@ export default Home
 
 const Content = styled.div`
   display: flex;
+  margin-top: 5%;
   @media screen and (max-width: 850px) {
     display: grid;
     margin-bottom: 25%;
@@ -43,28 +44,31 @@ const Content = styled.div`
 
 const TextBox = styled.div`
   justify-content: center;
-  color: #ccc6c6;
-  margin-left: 180px;
+  color: #999595;
+  margin-left: 17%;
   margin-top: 30px;
 
   
   h2{
-    font-size: 180px;
+    font-size: 150px;
     font-family: monospace;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #ece5e5;
   }
 
   h4{
-    max-width: 540px;
-    font-size: 20px;
+    max-width: 460px;
+    font-size: 17px;
     line-height: 30px;
   }
 
   h3{
-    font-size: 32px;
+    font-size: 30px;
+    font-weight: 500;
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -114,11 +118,12 @@ const TextBox = styled.div`
 
 const LogoBox = styled.div`
   text-align: center;
-  margin-top: 10%;
-  margin-left: 10%;
+  margin-top: 12%;
+  margin-left: 19%;
 
   @media screen and (max-width: 850px) {
     margin-top: -10%;
+    margin-left: 2%;
   }
 
 `
@@ -156,7 +161,6 @@ const Box = styled.div`
 
 const Container = styled.div`
     overflow-x: hidden;
-    overflow-y: hidden;
 
     width: 100vw;
     height: 100vh; 
